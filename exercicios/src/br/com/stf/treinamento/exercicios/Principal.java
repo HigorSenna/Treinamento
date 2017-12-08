@@ -4,6 +4,7 @@ import java.text.ParseException;
 
 import br.com.stf.treinamento.exercicios.java.JavaCurrencyFormatter;
 import br.com.stf.treinamento.exercicios.java.JavaDateAndTime;
+import br.com.stf.treinamento.exercicios.java.JavaExceptionHandling;
 import br.com.stf.treinamento.exercicios.java.JavaIntToString;
 import br.com.stf.treinamento.exercicios.java.JavaList;
 import br.com.stf.treinamento.exercicios.java.JavaLoops2;
@@ -19,6 +20,7 @@ import br.com.stf.treinamento.exercicios.java.sobrescrita.Futebol;
 
 public class Principal {
 	 public static void main(String[] args) throws ParseException {
+		 
 		 JavaStringIntroduction.executar();
 		 JavaLoops2.executar();
 		 JavaIntToString.executar();
@@ -29,9 +31,10 @@ public class Principal {
 		 JavaList.executar();
 		 JavaMap.executar();
 		 new Passaro().executar();
-		 new LivroComedia().setTitulo("ComÃ©dia");
+		 new LivroComedia().setTitulo("Comédia");
 		 new Esporte().getNome();
 		 new Futebol().getNome();
 		 TimeConversion.executar();
+		 JavaExceptionHandling.executar();
 	}
 }
