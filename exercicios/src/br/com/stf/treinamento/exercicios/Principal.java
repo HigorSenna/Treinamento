@@ -19,7 +19,7 @@ import br.com.stf.treinamento.exercicios.java.sobrescrita.Futebol;
 public class Principal {
 	 public static void main(String[] args) throws ParseException {
 		 JavaStringIntroduction.executar();
-		 JavaLoops2.executar();// fail
+		 JavaLoops2.executar();
 		 JavaIntToString.executar();
 		 JavaDateAndTime.executar();
 		 JavaCurrencyFormatter.executar();
