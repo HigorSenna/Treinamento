@@ -11,6 +11,7 @@ import br.com.stf.treinamento.exercicios.java.JavaMap;
 import br.com.stf.treinamento.exercicios.java.JavaStringIntroduction;
 import br.com.stf.treinamento.exercicios.java.JavaStringReverse;
 import br.com.stf.treinamento.exercicios.java.JavaSubstring;
+import br.com.stf.treinamento.exercicios.java.TimeConversion;
 import br.com.stf.treinamento.exercicios.java.abstrct.LivroComedia;
 import br.com.stf.treinamento.exercicios.java.heranca.Passaro;
 import br.com.stf.treinamento.exercicios.java.sobrescrita.Esporte;
@@ -29,9 +30,8 @@ public class Principal {
 		 JavaMap.executar();
 		 new Passaro().executar();
 		 new LivroComedia().setTitulo("Comédia");
-		 
 		 new Esporte().getNome();
 		 new Futebol().getNome();
-		 
+		 TimeConversion.executar();
 	}
 }
